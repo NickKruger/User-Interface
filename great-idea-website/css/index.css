@@ -28,6 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+* {
+	border: 5px red;
+
+}
 body {
 	line-height: 1;
 }
@@ -64,3 +69,8 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	display: inline-block;
+
+}
